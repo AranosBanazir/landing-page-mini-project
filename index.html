@@ -7,6 +7,7 @@
     <title>Landing Page Mini Project</title>
 </head>
 <body>
+    <div class="text-center">
     <header>
         <nav>
             <a href="#">Github</a>
@@ -18,16 +19,21 @@
     <image src="assets/image-1.png" alt="Coming soon image."/>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, unde?</p>
 
-    <section>
+    <section id="contact-me">
         <h2>Contact Me</h2>
         <form>
-            <label>Name</label>
+            <div class="form-control">
+            <label>Name:</label>
             <input type = "text" name = "name"/>
-            <label>Email</label>
-            <input name = "email" type = "email"/>
+            </div>
+            <div class ="form-control">
+            <label>Email:</label>
+            <input type = "email" name = "email"/>
+            </div>
             <button id ="send-info">Send</button>
         </form>
     </section>
     <footer>&copy; 2024 My New Website Productions</footer>
+    </div>
 </body>
 </html>
